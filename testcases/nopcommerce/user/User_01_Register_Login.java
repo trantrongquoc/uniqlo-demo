@@ -5,21 +5,22 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 
 public class User_01_Register_Login {
- 
-  @BeforeClass
-  public void beforeClass() {
-  }
-  
-  @Test
-  public void TC_01() {
-  }
-  
-  @Test
-  public void TC_02() {
-  }
+	String homePageUrl = "";
+	
+	@BeforeClass
+	public void beforeClass() {
+	}
 
-  @AfterClass
-  public void afterClass() {
-  }
+	@Test
+	public void TC_01() {
+	}
+
+	@Test
+	public void TC_02() {
+	}
+
+	@AfterClass
+	public void afterClass() {
+	}
 
 }
