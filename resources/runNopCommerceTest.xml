@@ -2,9 +2,26 @@
 <suite name="NopCommerce">
   
   <test name="Run on Firefox">
+  <parameter name="browser" value="firefox" />
     <classes>
-      <class name="nopcommerce.user.User_01_Register_Login"/>
+      <class name="commons.BasePage"/>
     </classes>
   </test> 
+  
+  <test name="Run on Chrome">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="commons.BasePage"/>
+    </classes>
+  </test> 
+  
+  <test name="Run on Edge">
+  <parameter name="browser" value="edge" />
+    <classes>
+      <class name="commons.BasePage"/>
+    </classes>
+  </test> 
+  
   <!-- Test -->
 </suite> <!-- Suite -->
+

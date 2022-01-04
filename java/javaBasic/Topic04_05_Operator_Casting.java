@@ -61,6 +61,5 @@ public class Topic04_05_Operator_Casting {
 		// Không mất giá trị ban đầu
 		long lNumber = (long) dNumber;
 		System.out.println(lNumber);
-		
 	}
 }
