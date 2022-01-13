@@ -22,4 +22,9 @@ public class HomePageObject extends BasePage {
 		waitElementVisible(driver, HomePageUI.SEARCH_RESULT_TEXT);
 		return getTextElement(driver, HomePageUI.SEARCH_RESULT_TEXT);
 	}
+
+	public String getNumberSearch() {
+		waitElementVisible(driver, HomePageUI.SEARCH_RESULT_NUMBER);
+		return getTextElement(driver, HomePageUI.SEARCH_RESULT_NUMBER);
+	}
 }
